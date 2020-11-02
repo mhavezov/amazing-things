@@ -107,66 +107,6 @@
   display: flex;
 }
 
-.card {
-  position: relative;
-  width: 33.333%;
-  height: 50vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  background-image: url('../assets/curology-min.png');
-  background-position: center;
-  background-size: cover;
-}
-
-.card:hover .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: black;
-  opacity: 0.6;
-}
-
-.card2 {
-  position: relative;
-  width: 33.333vw;
-  height: 50vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  background-image: url('../assets/yourspace-min.png');
-  background-position: center;
-  background-size: cover;
-}
-
-.card2:hover .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: black;
-  opacity: 0.6;
-}
-
-.card3 {
-  position: relative;
-  width: 33.333vw;
-  height: 50vh;
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-start;
-  background-image: url('../assets/lumin-min.png');
-  background-position: center;
-  background-size: cover;
-}
-
-.card3:hover .overlay {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: black;
-  opacity: 0.6;
-}
-
 .card-title {
   width: 60%;
   position: absolute;
