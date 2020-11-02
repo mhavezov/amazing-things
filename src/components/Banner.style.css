@@ -1,0 +1,188 @@
+.banner {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-color: white;
+}
+
+.banner-header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: black;
+  margin-left: 4rem;
+}
+
+.nav-menu {
+  width: 1.8rem;
+  margin-right: 4rem;
+  position: relative;
+}
+
+.nav-menu:hover {
+  cursor: pointer;
+}
+
+.nav-menu span {
+  margin-bottom: 0.3rem;
+  background-color: black;
+  height: 0.2rem;
+  display: block;
+}
+
+.nav-menu:hover .tooltiptext {
+  visibility: visible;
+}
+
+.tooltiptext {
+  visibility: hidden;
+  width: 80px;
+  color: black;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  right: 60%;
+  font-weight: 800;
+}
+
+.banner-main {
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  margin-left: 4rem;
+  position: relative;
+}
+
+.main-heading {
+  position: relative;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color: white;
+  mix-blend-mode: difference;
+  z-index: 10;
+}
+
+.main-link {
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.main-link a {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  font-size: 1.2rem;
+  margin-right: 1rem;
+}
+.main-link svg {
+  border: 1px solid black;
+  border-radius: 100%;
+  height: 42px;
+  width: 42px;
+}
+
+.main-link:hover svg {
+  background-color: black;
+  color: white;
+  transition: 0.5s;
+}
+
+.banner-footer {
+  height: 50vh;
+  display: flex;
+}
+
+.card {
+  position: relative;
+  width: 33.333%;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-image: url('../assets/curology-min.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.card:hover .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.card2 {
+  position: relative;
+  width: 33.333vw;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-image: url('../assets/yourspace-min.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.card2:hover .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.card3 {
+  position: relative;
+  width: 33.333vw;
+  height: 50vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-image: url('../assets/lumin-min.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.card3:hover .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.card-title {
+  width: 60%;
+  position: absolute;
+  padding: 1rem;
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: white;
+  opacity: 0.6;
+}
+
+.card-subtitle {
+  position: absolute;
+  top: 160px;
+  left: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  opacity: 0.6;
+}
