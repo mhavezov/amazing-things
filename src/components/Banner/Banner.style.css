@@ -14,11 +14,12 @@
 
 .logo a {
   text-transform: uppercase;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 2.5rem;
   text-decoration: none;
   color: black;
   margin-left: 4rem;
+  letter-spacing: 0.4rem;
 }
 
 .nav-menu {
@@ -53,7 +54,7 @@
   z-index: 1;
   top: -5px;
   right: 60%;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 .banner-main {
@@ -67,7 +68,8 @@
 
 .main-heading {
   position: relative;
-  font-weight: 700;
+  top: -10px;
+  font-weight: 600;
   font-size: 2.5rem;
   line-height: 2.5rem;
   color: white;
@@ -75,18 +77,28 @@
   z-index: 10;
 }
 
+.line {
+  height: 56px;
+  position: relative;
+  overflow: hidden;
+  bottom: -20px;
+}
+
+.line span {
+  position: absolute;
+}
+
 .main-link {
-  margin-top: 0.5rem;
   display: flex;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
 }
 
 .main-link a {
   text-decoration: none;
   color: black;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin-right: 1rem;
 }
 .main-link svg {
@@ -104,6 +116,7 @@
 
 .banner-footer {
   height: 50vh;
+  position: relative;
   display: flex;
 }
 
@@ -112,17 +125,18 @@
   position: absolute;
   padding: 1rem;
   font-size: 1.4rem;
-  font-weight: 900;
+  font-weight: 700;
   color: white;
   opacity: 0.6;
 }
 
 .card-subtitle {
   position: absolute;
-  top: 160px;
+  top: 190px;
   left: 18px;
   color: white;
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 400;
+  font-style: italic;
   opacity: 0.6;
 }
